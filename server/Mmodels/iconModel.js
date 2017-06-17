@@ -1,5 +1,5 @@
 var mongoose = require('mongoose')
-mongoose.connect('120.76.47.201:3029/gnomeDB')
+mongoose.connect('localhost:8080/gnomeDB')
 
 
 var Schema = mongoose.Schema
